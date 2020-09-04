@@ -22,7 +22,7 @@
      
 
 
-## UserInterface Design
+## User-Interface Design
 
 
 ```bash
@@ -31,22 +31,41 @@ Codul Morse se bazeaza pe urmatorul alfabet:
 ![Image](https://www.boxentriq.com/img/morse-code/morse-code-overview.png)
 
 ### Precedeul clasic de invatare.
-```bash
+```
 Invatarea Codului Morse se bazeaza pe retinerea "melodiei" fiecarui semn din alfabet. 
 Va fi necesar sa putem varia viteza de transmisie a codurilor, nu foarte mica fiindca 
 nu va mai putea fi recunoscuta usor "melodia" codurilor si nu foarte mare fiindca nu va 
 mai fi suficient timp de transcris caracterele.
 ```
-```bash
-Invatarea Codului Morse se bazeaza pe retinerea "melodiei" fiecarui semn din alfabet. 
-Va fi necesar sa putem varia viteza de transmisie a codurilor, nu foarte mica fiindca 
-nu va mai putea fi recunoscuta usor "melodia" codurilor si nu foarte mare fiindca nu va 
-mai fi suficient timp de transcris caracterele.
+```
+Evident, invatarea codurilor se face treptat, si nu tot alfabetul dintr-o data.
+Similar cu invatarea scrierii literelor in clasele primare, semnalele Codului Morse se 
+invata treptat , grupate doua cate doua si alese cu melodii suficient de diferite 
+astfel incat sa fie cat mai usoara si rapida retinerea lor.
+```
+```
+Semnalele Codului Morse se transmit in grupe de cate cinci semne, precedate de unul 
+sau mai multe caractere V (Atentie, urmeza transmitere)
+
+```
+```
+Fiecare lectie, notata de la 1 pana la 18 va introduce cate doua semnale noi. 
+Pentru inceput se vor exersa doar caracterele noi, urmand ca imediat ce acestea au fost asimilate 
+sa fie intercalate cu semnalele lectiilor deja parcurse.
+In acest fel dificultatea recunoasterii semnelor creste progresiv, lasind timp suficient pentru 
+o invatare continua, fara metode abrupte. 
+
+```
+```
+Semnalele Codului Morse se transmit in grupe de cate cinci semne, precedate de unul 
+sau mai multe caractere " V " ( = Atentie, urmeza transmitere)
+
 ```
 
-## Usage
 
-```cs
+### Interfata Utilizatorului
+
+```bash
 
 class morse
 
