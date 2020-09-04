@@ -64,9 +64,11 @@ o invatare continua, fara metode abrupte.
 ```
 Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 ```
+- Form principal cu
+
 >- buton  < numeric up/doun >  pentru alegerea numarului lectiei
 >- buton  <radio>              pentru (start / stop)  transmitere coduri
->- buton  <radio>              pentru mod afisare/ascundere (incepator/avansat) caractere transmise 
+>- buton  <radio>              pentru mod (afisare/ascundere) = (incepator/avansat) caractere transmise 
 
 - Meniu "Options"  >> deschide New Form cu:
 
