@@ -5,10 +5,12 @@
     Codul Morse poartă numele lui Samuel Morse, unul dintre inventatorii telegrafului.
     Alfabetul Morse a devenit un standard mondial în 1865.
     A fost utilizat pe scară largă în lumea maritimă până la sfârșitul secolului al XX-lea.
-    Alfabetul Morse este conceput astfel încât cele mai frecvente litere din alfabet să aibă cele mai scurte coduri.
-    Acest lucru face ca transmisia să fie mult mai rapidă decât dacă toate literele ar avea coduri de lungime egală.
-    Codul internațional Morse include literele engleze, câteva litere latine suplimentare, cifrele arabe 
-    și un set mic de punctuații și semnale procedurale.
+    Alfabetul Morse este conceput astfel încât cele mai frecvente litere din alfabet să 
+    aibă cele mai scurte coduri.
+    Acest lucru face ca transmisia să fie mult mai rapidă decât dacă toate literele ar avea 
+    coduri de lungime egală.
+    Codul internațional Morse include literele engleze, câteva litere latine suplimentare, 
+    cifrele arabe și un set mic de punctuații și semnale procedurale.
 
     Literele sunt separate printr-un spațiu de timp egal cu trei puncte.
     Cuvintele sunt separate printr-un spațiu de timp egal cu șapte puncte.
@@ -22,10 +24,9 @@
 
 ## Installation
 
-Use the package manager [pip](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiqlPTl78_rAhUkzoUKHeaoA-0QFjACegQIAxAB&url=http%3A%2F%2Fwww.ancom.org.ro%2Fuploads%2Flinks_files%2FCallbook_25_09_2017.xlsx&usg=AOvVaw2BHfzjh9JwISg4VhpMgbCu) to install foobar.
 
 ```bash
-pip install foobar
+Codul Morse se bazeaza pe urmatorul alfabet:
 ```
 ![Image](https://www.boxentriq.com/img/morse-code/morse-code-overview.png)
 
