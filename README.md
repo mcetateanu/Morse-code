@@ -56,23 +56,30 @@ In acest fel dificultatea recunoasterii semnelor creste progresiv, lasind timp s
 o invatare continua, fara metode abrupte. 
 
 ```
+
+
+
+### Interfata Utilizatorului
 ```
 Semnalele Codului Morse se transmit in grupe de cate cinci semne, precedate de unul 
 sau mai multe caractere " V " ( = Atentie, urmeza transmitere)
 
 ```
-
-
-### Interfata Utilizatorului
-
-```bash
-
-class morse
-
-foobar.pluralize('word')        // returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
+Semnalele Codului Morse se transmit in grupe de cate cinci semne, precedate de unul 
+sau mai multe caractere " V " ( = Atentie, urmeza transmitere)
+
+```
+```cs
+C#
+
+public static void Beep (int frequency, int duration);
+
+// This example demonstrates the Console.Beep(Int32, Int32) method
+using System;
+using System.Threading;
+
+class Sample ...
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
