@@ -18,7 +18,7 @@
     Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza. ***
     
    
-  ( Text preluat integral din: [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/))
+  ( Text preluat integral si tradus in limba romana din: [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/))
      
 
 
@@ -64,13 +64,20 @@ o invatare continua, fara metode abrupte.
 Interfata va avea urmatoarele functiuni:
 - buton  < numeric up/doun >  pentru alegerea numarului lectiei
 - buton  <radio>              pentru (start / stop)  transmitere coduri
+- buton  <radio>              pentru mod afisare/ascundere (incepator/avansat) caractere transmise 
 
+- Meniu "Options"  >> deschide New Form cu:
+- buton  < numeric up/doun >  pentru viteza de transmitere ( in Release 2.0_ daca totul este functional in  Alpha)
+- buton pentru Form Help
+- buton pentru Form About
+- buton pentru form License
 ```
-```
-Semnalele Codului Morse se transmit in grupe de cate cinci semne, precedate de unul 
-sau mai multe caractere " V " ( = Atentie, urmeza transmitere)
 
-```
+## Code desing.
+
+Acest capitol urmeza a fi elaborat in urma avizului de continuare a proiectului.
+
+
 ```cs
 C#
 
@@ -82,6 +89,10 @@ using System.Threading;
 
 class Sample ...
 ```
+
+
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
