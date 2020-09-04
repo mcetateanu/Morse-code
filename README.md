@@ -1,7 +1,7 @@
 #   Learning Morse-code
                     
 
-## Scurta descriere
+## 1. Scurta descriere
 
     Codul Morse poartă numele lui Samuel Morse, unul dintre inventatorii telegrafului.
     Alfabetul Morse a devenit un standard mondial în 1865.
@@ -23,7 +23,7 @@
      
 
 
-## User-Interface Design
+## 2. User-Interface Design
 
 
 ```bash
@@ -31,7 +31,7 @@ Codul Morse se bazeaza pe urmatorul alfabet:
 ```
 ![Image](https://www.boxentriq.com/img/morse-code/morse-code-overview.png)
 
-### Precedeul clasic de invatare.
+### 2.1. Precedeul clasic de invatare.
 ```
 Invatarea Codului Morse se bazeaza pe retinerea "melodiei" fiecarui semn din alfabet. 
 Va fi necesar sa putem varia viteza de transmisie a codurilor, nu foarte mica fiindca 
@@ -60,7 +60,7 @@ o invatare continua, fara metode abrupte.
 
 
 
-### Interfata Utilizatorului
+### 2.2. Interfata Utilizatorului
 ```
 Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 ```
@@ -78,7 +78,7 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 >- buton pentru  Form License
 
 
-## Code desing.
+## 3. Code desing.
 
 Acest capitol urmeza a fi elaborat in urma avizului de continuare a proiectului.
 
@@ -98,13 +98,13 @@ class Morse ...
 
 
 
-## Contributing
+## 4. Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+## 5. License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-### Project Status
+### 6. Project Status
 Started   Today 04 sept 2020         *by Mihail Cetateanu - YO3FVV*
