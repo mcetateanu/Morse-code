@@ -114,7 +114,7 @@ Please make sure to update tests as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ### 6. Project Status
->  Coordonator proiect  *Stefana Berenghia*
+>  Coordonator proiect : *Stefana Berenghia*
 >
->  Started   Today 04 sept 2020         *by Mihail Cetateanu - YO3FVV*
+>  Started   Today 04 sept 2020   :      *by Mihail Cetateanu - YO3FVV*
 
