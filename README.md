@@ -1,4 +1,5 @@
-# Morse-code
+# Learning Morse-code
+                     by Mihail Cetateanu YO3FVV
 
 ## Scurta descriere
 
