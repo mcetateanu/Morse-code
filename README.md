@@ -16,7 +16,7 @@
     Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza. ***
     
    
-   Text preluat integral din:                                                    [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/)
+  ( Text preluat integral din: [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/))
      
 
 
