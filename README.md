@@ -21,7 +21,7 @@
    
   ( Text preluat integral si tradus in limba romana din: [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/))
     
-   Programul isi propune sa invete utilizatorul sa recunoasca si sa transcrie mesaje codate in Cod Morse.
+   #### Programul isi propune sa invete utilizatorul sa recunoasca si sa transcrie mesaje codate in Cod Morse.
 
 
 ## 2. User-Interface Design
