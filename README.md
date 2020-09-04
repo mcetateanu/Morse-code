@@ -86,7 +86,7 @@ C#
 
 public static void Beep (int frequency, int duration);
 
-// This example demonstrates the Console.Beep(Int32, Int32) method
+// Plays the sound of a beep of a specified frequency and duration through the console speaker with Console.Beep(Int32, Int32) method
 using System;
 using System.Threading;
 
@@ -105,4 +105,5 @@ Please make sure to update tests as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 #### Project Status
-**Started Today 04sept2020**     * by Mihail Cetateanu   - YO3FVV *
+**Started Today 04sept2020**    
+                             * by Mihail Cetateanu   - YO3FVV *
