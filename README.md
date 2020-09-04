@@ -16,10 +16,9 @@
     Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza. ***
     
    
-   .                                                 Text preluat integral din:  [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/)
+   Text preluat integral din:                                                    [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/)
      
 
-Morse code is frequently used in geocaching mystery caches (puzzle caches), CTFs and logic puzzles. 
 
 ## Installation
 
