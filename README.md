@@ -31,7 +31,7 @@ Codul Morse se bazeaza pe urmatorul alfabet:
 ```
 ![Image](https://www.boxentriq.com/img/morse-code/morse-code-overview.png)
 
-### 2.1. Precedeul clasic de invatare.
+### 2.1. Procedeul clasic de invatare.
 ```
 Invatarea Codului Morse se bazeaza pe retinerea "melodiei" fiecarui semn din alfabet. 
 Va fi necesar sa putem varia viteza de transmisie a codurilor, nu foarte mica fiindca 
