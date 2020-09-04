@@ -22,7 +22,7 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiqlPTl78_rAhUkzoUKHeaoA-0QFjACegQIAxAB&url=http%3A%2F%2Fwww.ancom.org.ro%2Fuploads%2Flinks_files%2FCallbook_25_09_2017.xlsx&usg=AOvVaw2BHfzjh9JwISg4VhpMgbCu) to install foobar.
 
 ```bash
 pip install foobar
