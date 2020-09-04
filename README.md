@@ -104,5 +104,5 @@ Please make sure to update tests as appropriate.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-#### Project Status
-Started Today 04sept2020      * by Mihail Cetateanu   - YO3FVV *
+### Project Status
+Started Today 04sept2020      *by Mihail Cetateanu - YO3FVV*
