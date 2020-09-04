@@ -5,8 +5,8 @@
     Codul Morse poartă numele lui Samuel Morse, unul dintre inventatorii telegrafului.
     Alfabetul Morse a devenit un standard mondial în 1865.
     A fost utilizat pe scară largă în lumea maritimă până la sfârșitul secolului al XX-lea.
-    Alfabetul Morse este conceput astfel încât cele mai frecvente litere din alfabetul latin să aibă cele mai scurte coduri.
-    Acest lucru face ca transmisia să fie mult mai rapidă decât dacă toate literele ar avea coduri de lungime egală ..
+    Alfabetul Morse este conceput astfel încât cele mai frecvente litere din alfabet să aibă cele mai scurte coduri.
+    Acest lucru face ca transmisia să fie mult mai rapidă decât dacă toate literele ar avea coduri de lungime egală.
     Codul internațional Morse include literele engleze, câteva litere latine suplimentare, cifrele arabe 
     și un set mic de punctuații și semnale procedurale.
 
@@ -16,7 +16,7 @@
     Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza. ***
     
    
-   Text preluat integral din: [***  Ref.`1](https://www.boxentriq.com/code-breaking/morse-code/)
+   .                                                 Text preluat integral din:  [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/)
      
 
 Morse code is frequently used in geocaching mystery caches (puzzle caches), CTFs and logic puzzles. 
