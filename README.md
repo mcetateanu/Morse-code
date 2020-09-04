@@ -13,7 +13,7 @@
     Words are separated by a space equal to seven dots.
     There are also special Morse alphabets for other languages than English. 
     
-    *** Text preluat integral din [=Ref.1 =](https://www.boxentriq.com/code-breaking/morse-code)
+    *** Text preluat integral din [=Ref.1=](https://www.boxentriq.com/code-breaking/morse-code/)
     
 
 Morse code is frequently used in geocaching mystery caches (puzzle caches), CTFs and logic puzzles. 
