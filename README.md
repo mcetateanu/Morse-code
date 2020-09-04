@@ -75,6 +75,7 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 >- buton  < numeric up/doun >  pentru alegerea numarului lectiei
 >- buton  <radio>              pentru (start / stop)  transmitere coduri
 >- buton  <radio>              pentru mod de (afisare/ascundere) = [incepator/avansat] al caracterelor transmise 
+>- buton  <radio>              pentu mod exersare doar grupul nou de caractere  
 
 - Meniu "Options"  >> deschide New Form cu:
 
