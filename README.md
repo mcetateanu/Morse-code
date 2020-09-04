@@ -72,7 +72,7 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 
 - Meniu "Options"  >> deschide New Form cu:
 
->- buton  < numeric up/doun >  pentru viteza de transmitere ( in Release 2.0_ daca totul este functional in  Alpha)
+>- buton  < numeric up/doun >  pentru viteza de transmitere caractere ( implementat din Release 2.0_ daca totul este functional in  Alpha)
 >- buton pentru  Form Help
 >- buton pentru  Form About
 >- buton pentru  Form License
