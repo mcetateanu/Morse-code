@@ -1,5 +1,5 @@
-# Learning Morse-code
-                     by Mihail Cetateanu YO3FVV
+#   Learning Morse-code
+                    
 
 ## Scurta descriere
 
@@ -103,3 +103,5 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+#### Started Today 04sept2020    by Mihail Cetateanu   - YO3FVV
