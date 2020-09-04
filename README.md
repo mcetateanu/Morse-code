@@ -5,16 +5,15 @@
     Morse code is named after Samuel Morse, one of the inventors of the telegraph. 
     The Morse alphabet became a worldwide standard in 1865. 
     It has been widely used in the maritime world until the end of the 20th century.
-    The Morse alphabet is designed so that the most frequent letters in the English alphabet has the shortest codes.
+    The Morse alphabet is designed so that the most frequent letters in English alphabet has the shortest codes.
     This makes transmission much faster than if all letters would have equal length codes.
-    The International Morse Code includes the English letters, some extra Latin letters, the Arabic numerals and 
-    a small set of punctuation and procedural signals.
+    The International Morse Code includes the English letters, some extra Latin letters, the Arabic numerals 
+    and a small set of punctuation and procedural signals.
     Letters are separated by a space of duration equal to three dots.
     Words are separated by a space equal to seven dots.
     There are also special Morse alphabets for other languages than English. 
     
-    Text preluat integral din  
-   [Ref.`1](https://www.boxentriq.com/code-breaking/morse-code/)
+    Text preluat integral din  :   [Ref.`1](https://www.boxentriq.com/code-breaking/morse-code/)
      
 
 Morse code is frequently used in geocaching mystery caches (puzzle caches), CTFs and logic puzzles. 
