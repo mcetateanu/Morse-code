@@ -10,13 +10,13 @@
     Codul internațional Morse include literele engleze, câteva litere latine suplimentare, cifrele arabe 
     și un set mic de punctuații și semnale procedurale.
 
-    Literele sunt separate printr-un spațiu de durată egal cu trei puncte.
-    Cuvintele sunt separate printr-un spațiu egal cu șapte puncte.
+    Literele sunt separate printr-un spațiu de timp egal cu trei puncte.
+    Cuvintele sunt separate printr-un spațiu de timp egal cu șapte puncte.
     
-   Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza. ***
+    Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza. ***
     
    
-   [***  Ref.`1](https://www.boxentriq.com/code-breaking/morse-code/)  Text preluat integral
+   Text preluat integral din: [***  Ref.`1](https://www.boxentriq.com/code-breaking/morse-code/)
      
 
 Morse code is frequently used in geocaching mystery caches (puzzle caches), CTFs and logic puzzles. 
