@@ -45,7 +45,7 @@ nu va mai putea fi recunoscuta usor "melodia" codurilor si nu foarte mare fiindc
 mai fi suficient timp de transcris caracterele.
 ```
 ```
-Evident, invatarea codurilor se face treptat, si nu tot alfabetul dintr-o data.
+Evident, invatarea codurilor se face pe rand, si nu tot alfabetul dintr-o data.
 Similar cu invatarea scrierii literelor in clasele primare, semnalele Codului Morse se 
 invata treptat , grupate doua cate doua si alese cu melodii suficient de diferite 
 astfel incat sa fie cat mai usoara si rapida retinerea lor.
