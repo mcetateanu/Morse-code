@@ -11,7 +11,7 @@
     and a small set of punctuation and procedural signals.
     Letters are separated by a space of duration equal to three dots.
     Words are separated by a space equal to seven dots.
-    There are also special Morse alphabets for other languages than English. 
+    There are also special Morse alphabets for other languages than English. ***
     
    
    [***  Ref.`1](https://www.boxentriq.com/code-breaking/morse-code/)  Text preluat integral
