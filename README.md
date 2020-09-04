@@ -68,7 +68,7 @@ Interfata va avea urmatoarele functiuni:
 - buton  <radio>              pentru (start / stop)  transmitere coduri
 - buton  <radio>              pentru mod afisare/ascundere (incepator/avansat) caractere transmise 
 
-- Meniu "Options"  >> deschide New Form cu:
+>- Meniu "Options"  >> deschide New Form cu:
 
 - buton  < numeric up/doun >  pentru viteza de transmitere ( in Release 2.0_ daca totul este functional in  Alpha)
 - buton pentru Form Help
@@ -104,5 +104,5 @@ Please make sure to update tests as appropriate.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-#### Project Started 
-Today 04sept2020   *Italic* by Mihail Cetateanu   - YO3FVV
+#### Project Status
+**Started Today 04sept2020**     * by Mihail Cetateanu   - YO3FVV *
