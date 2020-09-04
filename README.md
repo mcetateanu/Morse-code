@@ -62,18 +62,18 @@ o invatare continua, fara metode abrupte.
 
 ### Interfata Utilizatorului
 ```
-Interfata va avea urmatoarele functiuni:
+Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 ```
-- buton  < numeric up/doun >  pentru alegerea numarului lectiei
-- buton  <radio>              pentru (start / stop)  transmitere coduri
-- buton  <radio>              pentru mod afisare/ascundere (incepator/avansat) caractere transmise 
+>- buton  < numeric up/doun >  pentru alegerea numarului lectiei
+>- buton  <radio>              pentru (start / stop)  transmitere coduri
+>- buton  <radio>              pentru mod afisare/ascundere (incepator/avansat) caractere transmise 
 
->- Meniu "Options"  >> deschide New Form cu:
+- Meniu "Options"  >> deschide New Form cu:
 
-- buton  < numeric up/doun >  pentru viteza de transmitere ( in Release 2.0_ daca totul este functional in  Alpha)
-- buton pentru Form Help
-- buton pentru Form About
-- buton pentru form License
+>- buton  < numeric up/doun >  pentru viteza de transmitere ( in Release 2.0_ daca totul este functional in  Alpha)
+>- buton pentru  Form Help
+>- buton pentru  Form About
+>- buton pentru  Form License
 
 
 ## Code desing.
