@@ -61,8 +61,9 @@ o invatare continua, fara metode abrupte.
 
 ### Interfata Utilizatorului
 ```
-Semnalele Codului Morse se transmit in grupe de cate cinci semne, precedate de unul 
-sau mai multe caractere " V " ( = Atentie, urmeza transmitere)
+Interfata va avea urmatoarele functiuni:
+- buton  < numeric up/doun >  pentru alegerea numarului lectiei
+- buton  <radio>              pentru (start / stop)  transmitere coduri
 
 ```
 ```
@@ -80,7 +81,7 @@ using System;
 using System.Threading;
 
 class Sample ...
-
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
