@@ -22,13 +22,27 @@
      
 
 
-## Installation
+## UserInterface Design
 
 
 ```bash
 Codul Morse se bazeaza pe urmatorul alfabet:
 ```
 ![Image](https://www.boxentriq.com/img/morse-code/morse-code-overview.png)
+
+### Precedeul clasic de invatare.
+```bash
+Invatarea Codului Morse se bazeaza pe retinerea "melodiei" fiecarui semn din alfabet. 
+Va fi necesar sa putem varia viteza de transmisie a codurilor, nu foarte mica fiindca 
+nu va mai putea fi recunoscuta usor "melodia" codurilor si nu foarte mare fiindca nu va 
+mai fi suficient timp de transcris caracterele.
+```
+```bash
+Invatarea Codului Morse se bazeaza pe retinerea "melodiei" fiecarui semn din alfabet. 
+Va fi necesar sa putem varia viteza de transmisie a codurilor, nu foarte mica fiindca 
+nu va mai putea fi recunoscuta usor "melodia" codurilor si nu foarte mare fiindca nu va 
+mai fi suficient timp de transcris caracterele.
+```
 
 ## Usage
 
