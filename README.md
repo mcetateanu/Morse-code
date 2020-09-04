@@ -1,17 +1,19 @@
 # Morse-code
 
-## Features
+## Scurta descriere
 
-    Morse code is named after Samuel Morse, one of the inventors of the telegraph. 
-    The Morse alphabet became a worldwide standard in 1865. 
-    It has been widely used in the maritime world until the end of the 20th century.
-    The Morse alphabet is designed so that the most frequent letters in English alphabet has the shortest codes.
-    This makes transmission much faster than if all letters would have equal length codes.
-    The International Morse Code includes the English letters, some extra Latin letters, the Arabic numerals 
-    and a small set of punctuation and procedural signals.
-    Letters are separated by a space of duration equal to three dots.
-    Words are separated by a space equal to seven dots.
-    There are also special Morse alphabets for other languages than English. ***
+    Codul Morse poartă numele lui Samuel Morse, unul dintre inventatorii telegrafului.
+    Alfabetul Morse a devenit un standard mondial în 1865.
+    A fost utilizat pe scară largă în lumea maritimă până la sfârșitul secolului al XX-lea.
+    Alfabetul Morse este conceput astfel încât cele mai frecvente litere din alfabetul latin să aibă cele mai scurte coduri.
+    Acest lucru face ca transmisia să fie mult mai rapidă decât dacă toate literele ar avea coduri de lungime egală ..
+    Codul internațional Morse include literele engleze, câteva litere latine suplimentare, cifrele arabe 
+    și un set mic de punctuații și semnale procedurale.
+
+    Literele sunt separate printr-un spațiu de durată egal cu trei puncte.
+    Cuvintele sunt separate printr-un spațiu egal cu șapte puncte.
+    
+   Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza. ***
     
    
    [***  Ref.`1](https://www.boxentriq.com/code-breaking/morse-code/)  Text preluat integral
