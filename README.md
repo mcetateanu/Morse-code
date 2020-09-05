@@ -59,7 +59,7 @@ sau mai multe caractere V (Atentie, urmeza transmitere)
 
 ```
 ```
-Fiecare lectie, numerotata de la 1 pana la 18, va introduce cate doua semnale noi. 
+Fiecare lectie, numerotata de la 1 pana la 20, va introduce cate doua semnale noi. 
 Pentru inceput se vor exersa doar caracterele noi, urmand ca imediat ce acestea au fost asimilate 
 sa fie intercalate cu semnalele lectiilor deja parcurse.
 In acest fel dificultatea recunoasterii semnelor creste progresiv, lasind timp suficient pentru 
