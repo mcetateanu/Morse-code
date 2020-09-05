@@ -16,7 +16,10 @@
     Literele sunt separate printr-un spațiu de timp egal cu trei puncte.
     Cuvintele sunt separate printr-un spațiu de timp egal cu șapte puncte.
     
-    Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza. ***
+    Există, de asemenea, alfabete Morse speciale pentru alte limbi decât engleza.
+    Codul Morse poate fi transmis folosind sunete  sau lumină, făcându-l util pe mare.
+    Este o metodă de comunicații extrem de fiabilă, chiar și în medii dificile și zgomotoase. 
+    Alfabetul Morse a devenit un standard mondial în 1865.  ***
     
    
   ( Text preluat integral si tradus in limba romana din: [***  Ref.1](https://www.boxentriq.com/code-breaking/morse-code/))
