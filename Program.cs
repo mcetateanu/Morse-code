@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Morse_code
+namespace Morse_code_learning
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Morse_code
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MorseLearningForm());
         }
     }
 }

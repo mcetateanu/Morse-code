@@ -8,13 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Morse_code
+namespace Morse_code_learning
 {
-    public partial class Form1 : Form
+    public partial class MorseLearningForm : Form
     {
-        public Form1()
+        public MorseLearningForm()
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
+
+
 }

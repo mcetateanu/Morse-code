@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Morse_code.Properties
+namespace Morse_code_learning.Properties
 {
 
 
