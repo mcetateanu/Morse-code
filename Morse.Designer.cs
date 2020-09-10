@@ -33,6 +33,7 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.Lectia_Nr = new System.Windows.Forms.TextBox();
             this.ProgressBar = new System.Windows.Forms.TextBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,11 +98,23 @@
             this.ProgressBar.TabIndex = 5;
             this.ProgressBar.Text = " E,L";
             // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(591, 341);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(110, 21);
+            this.radioButton2.TabIndex = 6;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // MorseLearningForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.ProgressBar);
             this.Controls.Add(this.Lectia_Nr);
             this.Controls.Add(this.numericUpDown1);
@@ -121,6 +134,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.TextBox Lectia_Nr;
         private System.Windows.Forms.TextBox ProgressBar;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 
