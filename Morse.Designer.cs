@@ -28,25 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.RadioButton_Cod_Ascuns = new System.Windows.Forms.RadioButton();
             this.CaractereLectieCurenta = new System.Windows.Forms.TextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.Lectia_Nr = new System.Windows.Forms.TextBox();
             this.ProgressBar = new System.Windows.Forms.TextBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.RadioButton_Cod_La_Vedere = new System.Windows.Forms.RadioButton();
+            this.Grupa_1_Cod_Morse = new System.Windows.Forms.TextBox();
+            this.Grupa_2_Cod_Morse = new System.Windows.Forms.TextBox();
+            this.Grupa_3_Cod_Morse = new System.Windows.Forms.TextBox();
+            this.Grupa_4_Cod_Morse = new System.Windows.Forms.TextBox();
+            this.Grupa_5_Cod_Morse = new System.Windows.Forms.TextBox();
+            this.Caracter_Morse_Curent = new System.Windows.Forms.TextBox();
+            this.CheckBox_Sart_Stop_Lectie = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
-            // radioButton1
+            // RadioButton_Cod_Ascuns
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(591, 383);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(110, 21);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.RadioButton_Cod_Ascuns.AutoSize = true;
+            this.RadioButton_Cod_Ascuns.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadioButton_Cod_Ascuns.Location = new System.Drawing.Point(52, 388);
+            this.RadioButton_Cod_Ascuns.Name = "RadioButton_Cod_Ascuns";
+            this.RadioButton_Cod_Ascuns.Size = new System.Drawing.Size(121, 24);
+            this.RadioButton_Cod_Ascuns.TabIndex = 1;
+            this.RadioButton_Cod_Ascuns.TabStop = true;
+            this.RadioButton_Cod_Ascuns.Text = "Cod Ascuns";
+            this.RadioButton_Cod_Ascuns.UseVisualStyleBackColor = true;
             // 
             // CaractereLectieCurenta
             // 
@@ -56,6 +64,7 @@
             this.CaractereLectieCurenta.Size = new System.Drawing.Size(45, 30);
             this.CaractereLectieCurenta.TabIndex = 2;
             this.CaractereLectieCurenta.Text = " E,L";
+            this.CaractereLectieCurenta.TextChanged += new System.EventHandler(this.CaractereLectieCurenta_TextChanged);
             // 
             // numericUpDown1
             // 
@@ -79,6 +88,7 @@
             0,
             0,
             0});
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // Lectia_Nr
             // 
@@ -88,6 +98,7 @@
             this.Lectia_Nr.Size = new System.Drawing.Size(99, 30);
             this.Lectia_Nr.TabIndex = 4;
             this.Lectia_Nr.Text = "Lectia Nr.:";
+            this.Lectia_Nr.TextChanged += new System.EventHandler(this.Lectia_Nr_TextChanged);
             // 
             // ProgressBar
             // 
@@ -97,29 +108,106 @@
             this.ProgressBar.Size = new System.Drawing.Size(660, 30);
             this.ProgressBar.TabIndex = 5;
             this.ProgressBar.Text = " E,L";
+            this.ProgressBar.TextChanged += new System.EventHandler(this.ProgressBar_TextChanged);
             // 
-            // radioButton2
+            // RadioButton_Cod_La_Vedere
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(591, 341);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(110, 21);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.RadioButton_Cod_La_Vedere.AutoSize = true;
+            this.RadioButton_Cod_La_Vedere.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadioButton_Cod_La_Vedere.Location = new System.Drawing.Point(52, 345);
+            this.RadioButton_Cod_La_Vedere.Name = "RadioButton_Cod_La_Vedere";
+            this.RadioButton_Cod_La_Vedere.Size = new System.Drawing.Size(142, 24);
+            this.RadioButton_Cod_La_Vedere.TabIndex = 6;
+            this.RadioButton_Cod_La_Vedere.TabStop = true;
+            this.RadioButton_Cod_La_Vedere.Text = "Cod La Vedere";
+            this.RadioButton_Cod_La_Vedere.UseVisualStyleBackColor = true;
+            this.RadioButton_Cod_La_Vedere.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // Grupa_1_Cod_Morse
+            // 
+            this.Grupa_1_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Grupa_1_Cod_Morse.Location = new System.Drawing.Point(52, 162);
+            this.Grupa_1_Cod_Morse.Name = "Grupa_1_Cod_Morse";
+            this.Grupa_1_Cod_Morse.Size = new System.Drawing.Size(100, 26);
+            this.Grupa_1_Cod_Morse.TabIndex = 7;
+            this.Grupa_1_Cod_Morse.Text = " ";
+            this.Grupa_1_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_1_Cod_Morse_TextChanged);
+            // 
+            // Grupa_2_Cod_Morse
+            // 
+            this.Grupa_2_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Grupa_2_Cod_Morse.Location = new System.Drawing.Point(186, 162);
+            this.Grupa_2_Cod_Morse.Name = "Grupa_2_Cod_Morse";
+            this.Grupa_2_Cod_Morse.Size = new System.Drawing.Size(99, 26);
+            this.Grupa_2_Cod_Morse.TabIndex = 8;
+            this.Grupa_2_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_2_Cod_Morse_TextChanged);
+            // 
+            // Grupa_3_Cod_Morse
+            // 
+            this.Grupa_3_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Grupa_3_Cod_Morse.Location = new System.Drawing.Point(326, 162);
+            this.Grupa_3_Cod_Morse.Name = "Grupa_3_Cod_Morse";
+            this.Grupa_3_Cod_Morse.Size = new System.Drawing.Size(100, 26);
+            this.Grupa_3_Cod_Morse.TabIndex = 9;
+            this.Grupa_3_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_3_Cod_Morse_TextChanged);
+            // 
+            // Grupa_4_Cod_Morse
+            // 
+            this.Grupa_4_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Grupa_4_Cod_Morse.Location = new System.Drawing.Point(477, 162);
+            this.Grupa_4_Cod_Morse.Name = "Grupa_4_Cod_Morse";
+            this.Grupa_4_Cod_Morse.Size = new System.Drawing.Size(100, 26);
+            this.Grupa_4_Cod_Morse.TabIndex = 10;
+            this.Grupa_4_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_4_Cod_Morse_TextChanged);
+            // 
+            // Grupa_5_Cod_Morse
+            // 
+            this.Grupa_5_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Grupa_5_Cod_Morse.Location = new System.Drawing.Point(614, 162);
+            this.Grupa_5_Cod_Morse.Name = "Grupa_5_Cod_Morse";
+            this.Grupa_5_Cod_Morse.Size = new System.Drawing.Size(99, 26);
+            this.Grupa_5_Cod_Morse.TabIndex = 11;
+            this.Grupa_5_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_5_Cod_Morse_TextChanged);
+            // 
+            // Caracter_Morse_Curent
+            // 
+            this.Caracter_Morse_Curent.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Caracter_Morse_Curent.Location = new System.Drawing.Point(640, 77);
+            this.Caracter_Morse_Curent.Name = "Caracter_Morse_Curent";
+            this.Caracter_Morse_Curent.Size = new System.Drawing.Size(72, 64);
+            this.Caracter_Morse_Curent.TabIndex = 12;
+            this.Caracter_Morse_Curent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Caracter_Morse_Curent.TextChanged += new System.EventHandler(this.Caracter_Morse_Curent_TextChanged);
+            // 
+            // CheckBox_Sart_Stop_Lectie
+            // 
+            this.CheckBox_Sart_Stop_Lectie.AutoSize = true;
+            this.CheckBox_Sart_Stop_Lectie.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckBox_Sart_Stop_Lectie.Location = new System.Drawing.Point(518, 389);
+            this.CheckBox_Sart_Stop_Lectie.Name = "CheckBox_Sart_Stop_Lectie";
+            this.CheckBox_Sart_Stop_Lectie.Size = new System.Drawing.Size(214, 28);
+            this.CheckBox_Sart_Stop_Lectie.TabIndex = 13;
+            this.CheckBox_Sart_Stop_Lectie.Text = "START / STOP  lectie";
+            this.CheckBox_Sart_Stop_Lectie.UseVisualStyleBackColor = true;
             // 
             // MorseLearningForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.radioButton2);
+            this.ClientSize = new System.Drawing.Size(819, 450);
+            this.Controls.Add(this.CheckBox_Sart_Stop_Lectie);
+            this.Controls.Add(this.Caracter_Morse_Curent);
+            this.Controls.Add(this.Grupa_5_Cod_Morse);
+            this.Controls.Add(this.Grupa_4_Cod_Morse);
+            this.Controls.Add(this.Grupa_3_Cod_Morse);
+            this.Controls.Add(this.Grupa_2_Cod_Morse);
+            this.Controls.Add(this.Grupa_1_Cod_Morse);
+            this.Controls.Add(this.RadioButton_Cod_La_Vedere);
             this.Controls.Add(this.ProgressBar);
             this.Controls.Add(this.Lectia_Nr);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.CaractereLectieCurenta);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.RadioButton_Cod_Ascuns);
             this.Name = "MorseLearningForm";
             this.Text = "LearningForm";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -129,12 +217,19 @@
         }
 
         #endregion
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton RadioButton_Cod_Ascuns;
         private System.Windows.Forms.TextBox CaractereLectieCurenta;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.TextBox Lectia_Nr;
         private System.Windows.Forms.TextBox ProgressBar;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton RadioButton_Cod_La_Vedere;
+        private System.Windows.Forms.TextBox Grupa_1_Cod_Morse;
+        private System.Windows.Forms.TextBox Grupa_2_Cod_Morse;
+        private System.Windows.Forms.TextBox Grupa_3_Cod_Morse;
+        private System.Windows.Forms.TextBox Grupa_4_Cod_Morse;
+        private System.Windows.Forms.TextBox Grupa_5_Cod_Morse;
+        private System.Windows.Forms.TextBox Caracter_Morse_Curent;
+        private System.Windows.Forms.CheckBox CheckBox_Sart_Stop_Lectie;
     }
 }
 
