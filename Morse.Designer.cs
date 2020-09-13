@@ -40,7 +40,9 @@
             this.Grupa_4_Cod_Morse = new System.Windows.Forms.TextBox();
             this.Grupa_5_Cod_Morse = new System.Windows.Forms.TextBox();
             this.Caracter_Morse_Curent = new System.Windows.Forms.TextBox();
-            this.CheckBox_Sart_Stop_Lectie = new System.Windows.Forms.CheckBox();
+            this.Lectie_DoarGrupaNoua_CheckBox = new System.Windows.Forms.CheckBox();
+            this.STOP = new System.Windows.Forms.Button();
+            this.START = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDown_NrLectie)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +54,6 @@
             this.RadioButton_Cod_Ascuns.Name = "RadioButton_Cod_Ascuns";
             this.RadioButton_Cod_Ascuns.Size = new System.Drawing.Size(121, 24);
             this.RadioButton_Cod_Ascuns.TabIndex = 1;
-            this.RadioButton_Cod_Ascuns.TabStop = true;
             this.RadioButton_Cod_Ascuns.Text = "Cod Ascuns";
             this.RadioButton_Cod_Ascuns.UseVisualStyleBackColor = true;
             this.RadioButton_Cod_Ascuns.CheckedChanged += new System.EventHandler(this.RadioButton_Cod_Ascuns_CheckedChanged);
@@ -62,8 +63,9 @@
             this.CaractereLectieCurenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CaractereLectieCurenta.Location = new System.Drawing.Point(240, 67);
             this.CaractereLectieCurenta.Name = "CaractereLectieCurenta";
-            this.CaractereLectieCurenta.Size = new System.Drawing.Size(45, 30);
+            this.CaractereLectieCurenta.Size = new System.Drawing.Size(53, 30);
             this.CaractereLectieCurenta.TabIndex = 2;
+            this.CaractereLectieCurenta.Text = " E,L";
             this.CaractereLectieCurenta.TextChanged += new System.EventHandler(this.CaractereLectieCurenta_TextChanged);
             // 
             // NumericUpDown_NrLectie
@@ -83,6 +85,7 @@
             this.NumericUpDown_NrLectie.Name = "NumericUpDown_NrLectie";
             this.NumericUpDown_NrLectie.Size = new System.Drawing.Size(55, 30);
             this.NumericUpDown_NrLectie.TabIndex = 3;
+            this.NumericUpDown_NrLectie.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NumericUpDown_NrLectie.Value = new decimal(new int[] {
             1,
             0,
@@ -105,7 +108,7 @@
             this.ProgressBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProgressBar.Location = new System.Drawing.Point(53, 21);
             this.ProgressBar.Name = "ProgressBar";
-            this.ProgressBar.Size = new System.Drawing.Size(660, 30);
+            this.ProgressBar.Size = new System.Drawing.Size(805, 30);
             this.ProgressBar.TabIndex = 5;
             this.ProgressBar.Text = " E,L";
             this.ProgressBar.TextChanged += new System.EventHandler(this.ProgressBar_TextChanged);
@@ -113,6 +116,7 @@
             // RadioButton_Cod_La_Vedere
             // 
             this.RadioButton_Cod_La_Vedere.AutoSize = true;
+            this.RadioButton_Cod_La_Vedere.Checked = true;
             this.RadioButton_Cod_La_Vedere.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RadioButton_Cod_La_Vedere.Location = new System.Drawing.Point(52, 345);
             this.RadioButton_Cod_La_Vedere.Name = "RadioButton_Cod_La_Vedere";
@@ -128,7 +132,7 @@
             this.Grupa_1_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Grupa_1_Cod_Morse.Location = new System.Drawing.Point(52, 162);
             this.Grupa_1_Cod_Morse.Name = "Grupa_1_Cod_Morse";
-            this.Grupa_1_Cod_Morse.Size = new System.Drawing.Size(100, 26);
+            this.Grupa_1_Cod_Morse.Size = new System.Drawing.Size(121, 26);
             this.Grupa_1_Cod_Morse.TabIndex = 7;
             this.Grupa_1_Cod_Morse.Text = " ";
             this.Grupa_1_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_1_Cod_Morse_TextChanged);
@@ -136,67 +140,96 @@
             // Grupa_2_Cod_Morse
             // 
             this.Grupa_2_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Grupa_2_Cod_Morse.Location = new System.Drawing.Point(186, 162);
+            this.Grupa_2_Cod_Morse.Location = new System.Drawing.Point(179, 162);
             this.Grupa_2_Cod_Morse.Name = "Grupa_2_Cod_Morse";
-            this.Grupa_2_Cod_Morse.Size = new System.Drawing.Size(99, 26);
+            this.Grupa_2_Cod_Morse.Size = new System.Drawing.Size(120, 26);
             this.Grupa_2_Cod_Morse.TabIndex = 8;
             this.Grupa_2_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_2_Cod_Morse_TextChanged);
             // 
             // Grupa_3_Cod_Morse
             // 
             this.Grupa_3_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Grupa_3_Cod_Morse.Location = new System.Drawing.Point(326, 162);
+            this.Grupa_3_Cod_Morse.Location = new System.Drawing.Point(305, 162);
             this.Grupa_3_Cod_Morse.Name = "Grupa_3_Cod_Morse";
-            this.Grupa_3_Cod_Morse.Size = new System.Drawing.Size(100, 26);
+            this.Grupa_3_Cod_Morse.Size = new System.Drawing.Size(120, 26);
             this.Grupa_3_Cod_Morse.TabIndex = 9;
             this.Grupa_3_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_3_Cod_Morse_TextChanged);
             // 
             // Grupa_4_Cod_Morse
             // 
             this.Grupa_4_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Grupa_4_Cod_Morse.Location = new System.Drawing.Point(477, 162);
+            this.Grupa_4_Cod_Morse.Location = new System.Drawing.Point(431, 162);
             this.Grupa_4_Cod_Morse.Name = "Grupa_4_Cod_Morse";
-            this.Grupa_4_Cod_Morse.Size = new System.Drawing.Size(100, 26);
+            this.Grupa_4_Cod_Morse.Size = new System.Drawing.Size(120, 26);
             this.Grupa_4_Cod_Morse.TabIndex = 10;
             this.Grupa_4_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_4_Cod_Morse_TextChanged);
             // 
             // Grupa_5_Cod_Morse
             // 
             this.Grupa_5_Cod_Morse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Grupa_5_Cod_Morse.Location = new System.Drawing.Point(614, 162);
+            this.Grupa_5_Cod_Morse.Location = new System.Drawing.Point(557, 162);
             this.Grupa_5_Cod_Morse.Name = "Grupa_5_Cod_Morse";
-            this.Grupa_5_Cod_Morse.Size = new System.Drawing.Size(99, 26);
+            this.Grupa_5_Cod_Morse.Size = new System.Drawing.Size(120, 26);
             this.Grupa_5_Cod_Morse.TabIndex = 11;
             this.Grupa_5_Cod_Morse.TextChanged += new System.EventHandler(this.Grupa_5_Cod_Morse_TextChanged);
             // 
             // Caracter_Morse_Curent
             // 
             this.Caracter_Morse_Curent.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Caracter_Morse_Curent.Location = new System.Drawing.Point(640, 77);
+            this.Caracter_Morse_Curent.Location = new System.Drawing.Point(786, 67);
             this.Caracter_Morse_Curent.Name = "Caracter_Morse_Curent";
             this.Caracter_Morse_Curent.Size = new System.Drawing.Size(72, 64);
             this.Caracter_Morse_Curent.TabIndex = 12;
             this.Caracter_Morse_Curent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Caracter_Morse_Curent.TextChanged += new System.EventHandler(this.Caracter_Morse_Curent_TextChanged);
             // 
-            // CheckBox_Sart_Stop_Lectie
+            // Lectie_DoarGrupaNoua_CheckBox
             // 
-            this.CheckBox_Sart_Stop_Lectie.AutoSize = true;
-            this.CheckBox_Sart_Stop_Lectie.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckBox_Sart_Stop_Lectie.Location = new System.Drawing.Point(518, 389);
-            this.CheckBox_Sart_Stop_Lectie.Name = "CheckBox_Sart_Stop_Lectie";
-            this.CheckBox_Sart_Stop_Lectie.Size = new System.Drawing.Size(214, 28);
-            this.CheckBox_Sart_Stop_Lectie.TabIndex = 13;
-            this.CheckBox_Sart_Stop_Lectie.Text = "START / STOP  lectie";
-            this.CheckBox_Sart_Stop_Lectie.UseVisualStyleBackColor = true;
-            this.CheckBox_Sart_Stop_Lectie.CheckedChanged += new System.EventHandler(this.CheckBox_Sart_Stop_Lectie_CheckedChanged);
+            this.Lectie_DoarGrupaNoua_CheckBox.AutoSize = true;
+            this.Lectie_DoarGrupaNoua_CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Lectie_DoarGrupaNoua_CheckBox.Checked = true;
+            this.Lectie_DoarGrupaNoua_CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Lectie_DoarGrupaNoua_CheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lectie_DoarGrupaNoua_CheckBox.Location = new System.Drawing.Point(52, 115);
+            this.Lectie_DoarGrupaNoua_CheckBox.Name = "Lectie_DoarGrupaNoua_CheckBox";
+            this.Lectie_DoarGrupaNoua_CheckBox.Size = new System.Drawing.Size(212, 28);
+            this.Lectie_DoarGrupaNoua_CheckBox.TabIndex = 13;
+            this.Lectie_DoarGrupaNoua_CheckBox.Text = "Tx  Doar Grupa Noua";
+            this.Lectie_DoarGrupaNoua_CheckBox.UseVisualStyleBackColor = true;
+            this.Lectie_DoarGrupaNoua_CheckBox.CheckedChanged += new System.EventHandler(this.Lectie_DoarGrupaNoua_CheckBox_CheckedChanged);
+            // 
+            // STOP
+            // 
+            this.STOP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.STOP.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.STOP.Location = new System.Drawing.Point(711, 375);
+            this.STOP.Name = "STOP";
+            this.STOP.Size = new System.Drawing.Size(147, 49);
+            this.STOP.TabIndex = 14;
+            this.STOP.Text = "STOP  TX";
+            this.STOP.UseVisualStyleBackColor = false;
+            this.STOP.Click += new System.EventHandler(this.STOP_Click);
+            // 
+            // START
+            // 
+            this.START.BackColor = System.Drawing.Color.Lime;
+            this.START.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.START.Location = new System.Drawing.Point(711, 308);
+            this.START.Name = "START";
+            this.START.Size = new System.Drawing.Size(147, 49);
+            this.START.TabIndex = 15;
+            this.START.Text = "START  TX";
+            this.START.UseVisualStyleBackColor = false;
+            this.START.Click += new System.EventHandler(this.START_Click);
             // 
             // MorseLearningForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(863, 484);
-            this.Controls.Add(this.CheckBox_Sart_Stop_Lectie);
+            this.ClientSize = new System.Drawing.Size(914, 484);
+            this.Controls.Add(this.START);
+            this.Controls.Add(this.STOP);
+            this.Controls.Add(this.Lectie_DoarGrupaNoua_CheckBox);
             this.Controls.Add(this.Caracter_Morse_Curent);
             this.Controls.Add(this.Grupa_5_Cod_Morse);
             this.Controls.Add(this.Grupa_4_Cod_Morse);
@@ -231,7 +264,9 @@
         private System.Windows.Forms.TextBox Grupa_4_Cod_Morse;
         private System.Windows.Forms.TextBox Grupa_5_Cod_Morse;
         private System.Windows.Forms.TextBox Caracter_Morse_Curent;
-        private System.Windows.Forms.CheckBox CheckBox_Sart_Stop_Lectie;
+        private System.Windows.Forms.CheckBox Lectie_DoarGrupaNoua_CheckBox;
+        private System.Windows.Forms.Button STOP;
+        private System.Windows.Forms.Button START;
     }
 }
 

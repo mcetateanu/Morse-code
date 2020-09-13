@@ -8,21 +8,17 @@ namespace Morse_code_learning
         public MorseLearningForm()
         {
             InitializeComponent();
-        }
-
-        readonly string[] grupe = {"E", "L", "V", "0", "A", "S", "Q", "=", "T", "2", "O", "C", "D", "5", "R", "?", "I", "3", "G", "X", "F", "4", "J", "N", "U", "7", "H", " ,", "8", " .", "K", "B", "P", "3", "M", "Y", "Z", "W", "1", "6"};
-
-       
-        
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void ProgressBar_TextChanged(object sender, EventArgs e)
-        {
            
         }
+
+        readonly string[] simbol = {"E", "L", "V", "0", "A", "S", "Q", "=", "T", "2", "O", "C", "D", "5", "R", "?", "I", "3", "G", "X", "F", "4", "J", "N", "U", "7", "H", " , ", "8", " . ", "K", "B", "P", "3", "M", "Y", "Z", "W", "1", "6"};
+       
+
+
+
+        
+
+       
 
         private void Lectia_Nr_TextChanged(object sender, EventArgs e)
         {
@@ -32,17 +28,38 @@ namespace Morse_code_learning
         private void NumericUpDown_NrLectie_ValueChanged(object sender, EventArgs e)
         {
 
-            decimal NrLectie = NumericUpDown_NrLectie.Value + 1;
-            int NrCaracter1 = (int)NrLectie * 2 - 4;
+            decimal NrLectie = NumericUpDown_NrLectie.Value -1 ;
+            int NrCaracter1 = (int)NrLectie * 2 ;
             int NrCaracter2 = NrCaracter1 + 1;
+            int NrCaracter = NrCaracter1;
 
-            string rezultat = grupe[NrCaracter1] + "," + grupe[NrCaracter2];
-            CaractereLectieCurenta.Text = rezultat.ToString();
+            string SirRezultat = " "+simbol[NrCaracter1] + "," + simbol[NrCaracter2];
+            CaractereLectieCurenta.Text = SirRezultat.ToString();
+            
+            string SirRezultat1 = " " + simbol[0] + "," + simbol[1];
+            int NrLectie1 = (int) NrLectie;
+            if (NrCaracter1 > 0)
+            {
+                for (int i = 1 ; i < NrLectie1+1 ; i++)
+                {
+
+                    SirRezultat1 = SirRezultat1 + "," + simbol[i*2] + "," + simbol[i*2+1];
+
+                }
+                
+            }
+
+            ProgressBar.Text = SirRezultat1.ToString();
+        }
+        private void ProgressBar_TextChanged(object sender, EventArgs e)
+        {
+            
         }
 
         private void CaractereLectieCurenta_TextChanged(object sender, EventArgs e)
         {
 
+           
         }
 
         private void Grupa_1_Cod_Morse_TextChanged(object sender, EventArgs e)
@@ -82,7 +99,7 @@ namespace Morse_code_learning
             
         }
 
-        private void CheckBox_Sart_Stop_Lectie_CheckedChanged(object sender, EventArgs e)
+        private void Lectie_DoarGrupaNoua_CheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
         }
@@ -95,7 +112,16 @@ namespace Morse_code_learning
         {
 
         }
-       
+
+        private void START_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void STOP_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
