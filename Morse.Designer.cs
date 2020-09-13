@@ -30,7 +30,7 @@
         {
             this.RadioButton_Cod_Ascuns = new System.Windows.Forms.RadioButton();
             this.CaractereLectieCurenta = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.NumericUpDown_NrLectie = new System.Windows.Forms.NumericUpDown();
             this.Lectia_Nr = new System.Windows.Forms.TextBox();
             this.ProgressBar = new System.Windows.Forms.TextBox();
             this.RadioButton_Cod_La_Vedere = new System.Windows.Forms.RadioButton();
@@ -41,7 +41,7 @@
             this.Grupa_5_Cod_Morse = new System.Windows.Forms.TextBox();
             this.Caracter_Morse_Curent = new System.Windows.Forms.TextBox();
             this.CheckBox_Sart_Stop_Lectie = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumericUpDown_NrLectie)).BeginInit();
             this.SuspendLayout();
             // 
             // RadioButton_Cod_Ascuns
@@ -55,6 +55,7 @@
             this.RadioButton_Cod_Ascuns.TabStop = true;
             this.RadioButton_Cod_Ascuns.Text = "Cod Ascuns";
             this.RadioButton_Cod_Ascuns.UseVisualStyleBackColor = true;
+            this.RadioButton_Cod_Ascuns.CheckedChanged += new System.EventHandler(this.RadioButton_Cod_Ascuns_CheckedChanged);
             // 
             // CaractereLectieCurenta
             // 
@@ -63,32 +64,31 @@
             this.CaractereLectieCurenta.Name = "CaractereLectieCurenta";
             this.CaractereLectieCurenta.Size = new System.Drawing.Size(45, 30);
             this.CaractereLectieCurenta.TabIndex = 2;
-            this.CaractereLectieCurenta.Text = " E,L";
             this.CaractereLectieCurenta.TextChanged += new System.EventHandler(this.CaractereLectieCurenta_TextChanged);
             // 
-            // numericUpDown1
+            // NumericUpDown_NrLectie
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(158, 67);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.NumericUpDown_NrLectie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NumericUpDown_NrLectie.Location = new System.Drawing.Point(158, 67);
+            this.NumericUpDown_NrLectie.Maximum = new decimal(new int[] {
             20,
             0,
             0,
             0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
+            this.NumericUpDown_NrLectie.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(55, 30);
-            this.numericUpDown1.TabIndex = 3;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.NumericUpDown_NrLectie.Name = "NumericUpDown_NrLectie";
+            this.NumericUpDown_NrLectie.Size = new System.Drawing.Size(55, 30);
+            this.NumericUpDown_NrLectie.TabIndex = 3;
+            this.NumericUpDown_NrLectie.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.NumericUpDown_NrLectie.ValueChanged += new System.EventHandler(this.NumericUpDown_NrLectie_ValueChanged);
             // 
             // Lectia_Nr
             // 
@@ -121,7 +121,7 @@
             this.RadioButton_Cod_La_Vedere.TabStop = true;
             this.RadioButton_Cod_La_Vedere.Text = "Cod La Vedere";
             this.RadioButton_Cod_La_Vedere.UseVisualStyleBackColor = true;
-            this.RadioButton_Cod_La_Vedere.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.RadioButton_Cod_La_Vedere.CheckedChanged += new System.EventHandler(this.RadioButton_Cod_La_Vedere_CheckedChanged);
             // 
             // Grupa_1_Cod_Morse
             // 
@@ -189,12 +189,13 @@
             this.CheckBox_Sart_Stop_Lectie.TabIndex = 13;
             this.CheckBox_Sart_Stop_Lectie.Text = "START / STOP  lectie";
             this.CheckBox_Sart_Stop_Lectie.UseVisualStyleBackColor = true;
+            this.CheckBox_Sart_Stop_Lectie.CheckedChanged += new System.EventHandler(this.CheckBox_Sart_Stop_Lectie_CheckedChanged);
             // 
             // MorseLearningForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(819, 450);
+            this.ClientSize = new System.Drawing.Size(863, 484);
             this.Controls.Add(this.CheckBox_Sart_Stop_Lectie);
             this.Controls.Add(this.Caracter_Morse_Curent);
             this.Controls.Add(this.Grupa_5_Cod_Morse);
@@ -205,12 +206,13 @@
             this.Controls.Add(this.RadioButton_Cod_La_Vedere);
             this.Controls.Add(this.ProgressBar);
             this.Controls.Add(this.Lectia_Nr);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.NumericUpDown_NrLectie);
             this.Controls.Add(this.CaractereLectieCurenta);
             this.Controls.Add(this.RadioButton_Cod_Ascuns);
             this.Name = "MorseLearningForm";
             this.Text = "LearningForm";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.Load += new System.EventHandler(this.MorseLearningForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.NumericUpDown_NrLectie)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,7 +221,7 @@
         #endregion
         private System.Windows.Forms.RadioButton RadioButton_Cod_Ascuns;
         private System.Windows.Forms.TextBox CaractereLectieCurenta;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown NumericUpDown_NrLectie;
         private System.Windows.Forms.TextBox Lectia_Nr;
         private System.Windows.Forms.TextBox ProgressBar;
         private System.Windows.Forms.RadioButton RadioButton_Cod_La_Vedere;
