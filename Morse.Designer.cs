@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.RadioButton_Cod_Ascuns = new System.Windows.Forms.RadioButton();
             this.CaractereLectieCurenta = new System.Windows.Forms.TextBox();
             this.NumericUpDown_NrLectie = new System.Windows.Forms.NumericUpDown();
@@ -43,6 +44,7 @@
             this.Lectie_DoarGrupaNoua_CheckBox = new System.Windows.Forms.CheckBox();
             this.STOP = new System.Windows.Forms.Button();
             this.START = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDown_NrLectie)).BeginInit();
             this.SuspendLayout();
             // 
@@ -220,6 +222,11 @@
             this.START.UseVisualStyleBackColor = false;
             this.START.Click += new System.EventHandler(this.START_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // MorseLearningForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -265,6 +272,7 @@
         private System.Windows.Forms.CheckBox Lectie_DoarGrupaNoua_CheckBox;
         private System.Windows.Forms.Button STOP;
         private System.Windows.Forms.Button START;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

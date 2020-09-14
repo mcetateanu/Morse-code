@@ -11,9 +11,9 @@ namespace Morse_code
         public int TX;
 
 
-        public Transmisiune(int termen1)
+        public Transmisiune()
         {
-            if (termen1 > 1) TX = termen1;
+            
         }
     }
 }
