@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Transmisiune.cs" />
     <Compile Include="Morse_Code.cs" />
     <Compile Include="Morse.cs">
       <SubType>Form</SubType>

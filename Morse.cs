@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Threading;
+using System.Globalization;
 
 namespace Morse_code_learning
 {
@@ -12,18 +14,8 @@ namespace Morse_code_learning
         }
 
         readonly string[] simbol = {"E", "L", "V", "0", "A", "S", "Q", "=", "T", "2", "O", "C", "D", "5", "R", "?", "I", "3", "G", "X", "F", "4", "J", "N", "U", "7", "H", " , ", "8", " . ", "K", "B", "P", "3", "M", "Y", "Z", "W", "1", "6"};
-       
-
-
 
         
-
-       
-
-        private void Lectia_Nr_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
 
         private void NumericUpDown_NrLectie_ValueChanged(object sender, EventArgs e)
         {
@@ -55,7 +47,10 @@ namespace Morse_code_learning
         {
             
         }
+        private void Lectia_Nr_TextChanged(object sender, EventArgs e)
+        {
 
+        }
         private void CaractereLectieCurenta_TextChanged(object sender, EventArgs e)
         {
 
@@ -94,13 +89,69 @@ namespace Morse_code_learning
 
         }
 
-        private void MorseLearningForm_Load(object sender, EventArgs e)
+       
+
+        public void Lectie_DoarGrupaNoua_CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             
+            
+        }
+        public void START_Click(object sender, EventArgs e)
+        {
+            
+            {
+                decimal NrLectie = NumericUpDown_NrLectie.Value;
+                int NrCaracterTX_Max = (int)NrLectie * 2 ;
+                int NrCaracterTX_Min = 0;
+                
+                if (Lectie_DoarGrupaNoua_CheckBox.Checked)
+                {
+
+                    NrCaracterTX_Min = (int)NrLectie * 2-2;
+
+                }
+                
+                Random rnd = new Random();
+
+                int NrCaracterTX = rnd.Next(NrCaracterTX_Min, NrCaracterTX_Max);
+                string SirRezultat = simbol[NrCaracterTX];
+                Caracter_Morse_Curent.Text = SirRezultat.ToString();
+                Morse_Code Play = new Morse_Code(SirRezultat);
+                //Thread.Sleep(2000);
+            }
+
+
+
+
+
+
+            
+
+
+
         }
 
-        private void Lectie_DoarGrupaNoua_CheckBox_CheckedChanged(object sender, EventArgs e)
+        public void STOP_Click(object sender, EventArgs e)
         {
+
+            
+            
+            
+        }
+        public void MorseLearningForm_Load(object sender, EventArgs e)
+        {
+
+
+
+
+            //  if(Boolean TX == true);
+            //  if  tx true > generez caracter conf conditii lectie
+            //  generez morse_code aferent caracter
+            //  afisez caracter in > caracter curent Box 
+            //                     > si apoi in grupa_x  Box
+
+            
+
 
         }
 
@@ -113,15 +164,8 @@ namespace Morse_code_learning
 
         }
 
-        private void START_Click(object sender, EventArgs e)
-        {
+       
 
-        }
-
-        private void STOP_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 
 

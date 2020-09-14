@@ -12,32 +12,32 @@ namespace Morse_code_learning
 
 
         // Definirea codurilor Morse
-        private Morse_Code ( string letter ) 
+        public Morse_Code ( string letter ) 
         {
 
             int Tone = 800;   // Hz
-            int Time = 80;  // msec
+            int Time = 120;  // msec
             int Dot = Time;
             int Dash = 3 * Time;
 
 
             if (letter == "A")
             {
-                Console.WriteLine("A ");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
             }
             if (letter == "a")
             {
-                Console.WriteLine("A ");
+            
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
             }
             if (letter == "B")
             {
-                Console.WriteLine("B");
+           
                
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -46,7 +46,7 @@ namespace Morse_code_learning
             }
             if (letter == "b")
             {
-                Console.WriteLine("B");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -55,7 +55,7 @@ namespace Morse_code_learning
             }
             if (letter == "C")
             {
-                Console.WriteLine("C");
+            
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -64,7 +64,7 @@ namespace Morse_code_learning
             }
             if (letter == "c")
             {
-                Console.WriteLine("C");
+            
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -73,7 +73,7 @@ namespace Morse_code_learning
             }
             if (letter == "D")
             {
-                Console.WriteLine("D");
+               
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -81,7 +81,7 @@ namespace Morse_code_learning
             }
             if (letter == "d")
             {
-                Console.WriteLine("D");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -89,20 +89,19 @@ namespace Morse_code_learning
             }
             if (letter == "E")
             {
-                Console.WriteLine("E");
-
+             
                 Console.Beep(Tone, Dot);
             }
             if (letter == "e")
             {
-                Console.WriteLine("E");
+              
 
                 Console.Beep(Tone, Dot);
             }
 
             if (letter == "F")
             {
-                Console.WriteLine("F");
+               
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -111,7 +110,7 @@ namespace Morse_code_learning
             }
             if (letter == "f")
             {
-                Console.WriteLine("F");
+             
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -120,7 +119,6 @@ namespace Morse_code_learning
             }
             if (letter == "G")
             {
-                Console.WriteLine("G");
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -128,7 +126,7 @@ namespace Morse_code_learning
             }
             if (letter == "g")
             {
-                Console.WriteLine("G");
+             
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -136,7 +134,7 @@ namespace Morse_code_learning
             }
             if (letter == "H")
             {
-                Console.WriteLine("H");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -145,7 +143,7 @@ namespace Morse_code_learning
             }
             if (letter == "h")
             {
-                Console.WriteLine("H");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -154,21 +152,20 @@ namespace Morse_code_learning
             }
             if (letter == "I")
             {
-                Console.WriteLine("I");
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
             }
             if (letter == "i")
             {
-                Console.WriteLine("I");
+               
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
             }
             if (letter == "J")
             {
-                Console.WriteLine("J");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -177,7 +174,7 @@ namespace Morse_code_learning
             }
             if (letter == "j")
             {
-                Console.WriteLine("J");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -185,7 +182,7 @@ namespace Morse_code_learning
             }
             if (letter == "K")
             {
-                Console.WriteLine("K");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -193,7 +190,7 @@ namespace Morse_code_learning
             }
             if (letter == "k")
             {
-                Console.WriteLine("K");
+               
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -201,7 +198,7 @@ namespace Morse_code_learning
             }
             if (letter == "L")
             {
-                Console.WriteLine("L");
+               
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -210,7 +207,7 @@ namespace Morse_code_learning
             }
             if (letter == "l")
             {
-                Console.WriteLine("L");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -219,28 +216,28 @@ namespace Morse_code_learning
             }
             if (letter == "M")
             {
-                Console.WriteLine("M");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
             }
             if (letter == "m")
             {
-                Console.WriteLine("M");
+               
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
             }
             if (letter == "N")
             {
-                Console.WriteLine("N");
+             
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
             }
             if (letter == "O")
             {
-                Console.WriteLine("O");
+             
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -248,7 +245,6 @@ namespace Morse_code_learning
             }
             if (letter == "o")
             {
-                Console.WriteLine("O");
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -256,7 +252,6 @@ namespace Morse_code_learning
             }
             if (letter == "P")
             {
-                Console.WriteLine("P");
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -265,7 +260,7 @@ namespace Morse_code_learning
             }
             if (letter == "p")
             {
-                Console.WriteLine("P");
+               
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -274,7 +269,7 @@ namespace Morse_code_learning
             }
             if (letter == "Q")
             {
-                Console.WriteLine("Q");
+               
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -283,7 +278,7 @@ namespace Morse_code_learning
             }
             if (letter == "q")
             {
-                Console.WriteLine("Q");
+               
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -292,7 +287,7 @@ namespace Morse_code_learning
             }
             if (letter == "R")
             {
-                Console.WriteLine("R");
+             
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -300,7 +295,7 @@ namespace Morse_code_learning
             }
             if (letter == "r")
             {
-                Console.WriteLine("R");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -308,7 +303,7 @@ namespace Morse_code_learning
             }
             if (letter == "S")
             {
-                Console.WriteLine("S");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -316,7 +311,7 @@ namespace Morse_code_learning
             }
             if (letter == "s")
             {
-                Console.WriteLine("S");
+             
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -324,19 +319,18 @@ namespace Morse_code_learning
             }
             if (letter == "T")
             {
-                Console.WriteLine("T");
+              
 
                 Console.Beep(Tone, Dash);
             }
             if (letter == "t")
             {
-                Console.WriteLine("T");
+               
 
                 Console.Beep(Tone, Dash);
             }
             if (letter == "U")
             {
-                Console.WriteLine("U");
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -344,7 +338,7 @@ namespace Morse_code_learning
             }
             if (letter == "u")
             {
-                Console.WriteLine("U");
+ 
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -352,7 +346,7 @@ namespace Morse_code_learning
             }
             if (letter == "V")
             {
-                Console.WriteLine("V");
+       
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -361,7 +355,7 @@ namespace Morse_code_learning
             }
             if (letter == "v")
             {
-                Console.WriteLine("V");
+          
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -370,7 +364,7 @@ namespace Morse_code_learning
             }
             if (letter == "W")
             {
-                Console.WriteLine("W");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -378,7 +372,7 @@ namespace Morse_code_learning
             }
             if (letter == "w")
             {
-                Console.WriteLine("W");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -386,7 +380,6 @@ namespace Morse_code_learning
             }
             if (letter == "X")
             {
-                Console.WriteLine("X");
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -395,7 +388,7 @@ namespace Morse_code_learning
             }
             if (letter == "x")
             {
-                Console.WriteLine("X");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -404,7 +397,7 @@ namespace Morse_code_learning
             }
             if (letter == "Y")
             {
-                Console.WriteLine("Y");
+             
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -413,7 +406,7 @@ namespace Morse_code_learning
             }
             if (letter == "y")
             {
-                Console.WriteLine("Y");
+               
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -422,7 +415,7 @@ namespace Morse_code_learning
             }
             if (letter == "Z")
             {
-                Console.WriteLine("Z");
+             
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -431,7 +424,7 @@ namespace Morse_code_learning
             }
             if (letter == "z")
             {
-                Console.WriteLine("Z");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -440,7 +433,7 @@ namespace Morse_code_learning
             }
             if (letter == "1")
             {
-                Console.WriteLine("1");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -450,7 +443,6 @@ namespace Morse_code_learning
             }
             if (letter == "2")
             {
-                Console.WriteLine("2");
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -460,7 +452,7 @@ namespace Morse_code_learning
             }
             if (letter == "3")
             {
-                Console.WriteLine("3");
+             
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -470,7 +462,7 @@ namespace Morse_code_learning
             }
             if (letter == "4")
             {
-                Console.WriteLine("4");
+             
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -480,7 +472,7 @@ namespace Morse_code_learning
             }
             if (letter == "5")
             {
-                Console.WriteLine("5");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -490,7 +482,7 @@ namespace Morse_code_learning
             }
             if (letter == "6")
             {
-                Console.WriteLine("6");
+            
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
@@ -500,7 +492,7 @@ namespace Morse_code_learning
             }
             if (letter == "7")
             {
-                Console.WriteLine("7");
+             
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -510,7 +502,7 @@ namespace Morse_code_learning
             }
             if (letter == "8")
             {
-                Console.WriteLine("8");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -520,7 +512,7 @@ namespace Morse_code_learning
             }
             if (letter == "9")
             {
-                Console.WriteLine("9");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -530,7 +522,7 @@ namespace Morse_code_learning
             }
             if (letter == "0")
             {
-                Console.WriteLine("0");
+              
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -540,7 +532,7 @@ namespace Morse_code_learning
             }
             if (letter == ".")
             {
-                Console.WriteLine(".");
+              
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
@@ -549,9 +541,9 @@ namespace Morse_code_learning
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dash);
             }
-            if (letter == ",")
+            if (letter == " , ")
             {
-                Console.WriteLine(",");
+           
 
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dash);
@@ -562,7 +554,7 @@ namespace Morse_code_learning
             }
             if (letter == "?")
             {
-                Console.WriteLine("?");
+   
 
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
@@ -570,6 +562,17 @@ namespace Morse_code_learning
                 Console.Beep(Tone, Dash);
                 Console.Beep(Tone, Dot);
                 Console.Beep(Tone, Dot);
+            }
+            if (letter == "=")
+            {
+                
+
+                Console.Beep(Tone, Dash);
+                Console.Beep(Tone, Dot);
+                Console.Beep(Tone, Dot);
+                Console.Beep(Tone, Dot);
+                Console.Beep(Tone, Dot);
+                Console.Beep(Tone, Dash);
             }
 
 

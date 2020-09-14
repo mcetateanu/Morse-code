@@ -176,9 +176,9 @@
             // Caracter_Morse_Curent
             // 
             this.Caracter_Morse_Curent.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Caracter_Morse_Curent.Location = new System.Drawing.Point(786, 67);
+            this.Caracter_Morse_Curent.Location = new System.Drawing.Point(711, 67);
             this.Caracter_Morse_Curent.Name = "Caracter_Morse_Curent";
-            this.Caracter_Morse_Curent.Size = new System.Drawing.Size(72, 64);
+            this.Caracter_Morse_Curent.Size = new System.Drawing.Size(147, 64);
             this.Caracter_Morse_Curent.TabIndex = 12;
             this.Caracter_Morse_Curent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Caracter_Morse_Curent.TextChanged += new System.EventHandler(this.Caracter_Morse_Curent_TextChanged);
@@ -187,8 +187,6 @@
             // 
             this.Lectie_DoarGrupaNoua_CheckBox.AutoSize = true;
             this.Lectie_DoarGrupaNoua_CheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Lectie_DoarGrupaNoua_CheckBox.Checked = true;
-            this.Lectie_DoarGrupaNoua_CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Lectie_DoarGrupaNoua_CheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lectie_DoarGrupaNoua_CheckBox.Location = new System.Drawing.Point(52, 115);
             this.Lectie_DoarGrupaNoua_CheckBox.Name = "Lectie_DoarGrupaNoua_CheckBox";
