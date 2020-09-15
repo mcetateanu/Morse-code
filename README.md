@@ -118,7 +118,7 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
            else                     > afisez toate grupele de litere doar la sfrsitul transmisiei
 
 ### Interfata grafica:
-
+![](LearninfForm.png)
 
 ## 4. Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
