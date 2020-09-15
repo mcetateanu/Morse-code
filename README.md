@@ -120,6 +120,18 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 ### Interfata grafica:
 ![](LearningForm.png)
 
+Interfata grafica, construita in o maniera intuitiva, invita la alegerea numarului lectiei din campul NumericUpDown.
+In momentul alegerii acesteia, este actualizat automat campul "Caractere_Lectie_Noua" si "ProgressBar" in acord cu 
+lectia aleasa.
+
+Butonul CheckBox "TX Doar Grupa Noua" in cazul selectarii, va genera transmiterea doar a caracterelor Morse noi introduse,
+astfel incat sa fie deprinse mai usor. Prin debifare, se vor genera caractere Morse din toata gama prezentata in ProgressBar.
+
+Butoanele Radio "Cod la Vedere" si "Cod Ascuns" sunt folosite in timpul practicarii transcrierii codurilor ascultate
+in mod invatare/expert
+
+PushButtonul START TX si STOP TX pornesc si opresc transmiterea seriei de 5 grupe a cate 5 caractere.
+
 ## 4. Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
