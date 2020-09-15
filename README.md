@@ -105,7 +105,7 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 
              
     if           START_TX == true   >        generez Random caracter conf conditii lectie
-                                             generez morse_code aferent caracter prin apelare obiect nou
+                                             generez morse_code aferent caracter prin apelare obiect nou:
  ``` c#                                    
                                        Morse_Code Play = new Morse_Code(CaracterRandomRezultat);
  ```
