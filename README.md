@@ -130,10 +130,9 @@ in mod invatare/expert
 
 PushButtonul START TX si STOP TX pornesc si opresc transmiterea seriei de 5 grupe a cate 5 caractere.
 
-## 4. Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## 4. Contributii
+Cererile de pull sunt binevenite. Pentru modificari majore, va rugam sa deschideti mai intai o solicitare, pentru a discuta ce ati dori sa modificati.
 
-Please make sure to update tests as appropriate.
 
 ## 5. License
 [MIT](https://choosealicense.com/licenses/mit/)
