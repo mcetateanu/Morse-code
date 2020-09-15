@@ -90,23 +90,34 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 
 ## 3. Code desing.
 
-Acest capitol urmeza a fi elaborat in urma avizului de continuare a proiectului.
+### Clasele folosite:
+  Preexistente:
+
+- Beep (int frequency, int duration)     // genereaza ton de frecventa (int frequency) Hz si durata (duration) msec.
+- Random (int32_Min,int32_Max)           // genereaza valoare int32 aleatorie in intervalul (Min,Max)
+
+ construite:
+
+- Morse_Code                            // generaza "melodia" corespunzatoare caracterului atribut.
+
+### Structura programului:
+          
 
 
-```cs
-C#
-
-public static void Beep (int frequency, int duration);
-
-// Plays the sound of a beep of a specified frequency and duration through the console speaker
-// with Console.Beep(Int32, Int32) method
-using System;
-using System.Threading;
-
-class Morse ...
-```
 
 
+             
+             if  START_TX ==   true > generez caracter conf conditii lectie
+                                      generez morse_code aferent caracter prin apelare obiect nou
+ ``` c#                                    
+                                       Morse_Code Play = new Morse_Code(CaracterRandomRezultat);
+ ```
+            if RadioButton_CodLaVedere == true 
+                                    > afisez caracter in > caracter_curent_Box 
+                                    > si apoi in grupa_x  Box
+           else                     > afisez toate grupele de litere doar la sfrsitul transmisiei
+
+### Interfata grafica:
 
 
 ## 4. Contributing
