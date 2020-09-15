@@ -16,9 +16,10 @@ namespace Morse_code_learning
         }
 
         readonly string[] simbol = {"E", "L", "V", "0", "A", "S", "Q", "=", "T", "2", "O", "C", "D", "5", "R", "?", "I", "3", "G", "X", "F", "4", "J", "N", "U", "7", "H", " , ", "8", " . ", "K", "B", "P", "3", "M", "Y", "Z", "W", "1", "6"};
-        string[] vs = { " ", "2", "3", "4","5" };
+        string[] vspace = { " " };
+        string SirNou, SirGrupa1, SirGrupa2, SirGrupa3, SirGrupa4, SirGrupa5 ;
         int i = 0;
-
+        int CodAscuns = 0;
 
         private void NumericUpDown_NrLectie_ValueChanged(object sender, EventArgs e)
         {
@@ -104,14 +105,25 @@ namespace Morse_code_learning
         public void START_Click(object sender, EventArgs e)
         {
             i = 1;
+            SirGrupa1 = vspace[0];
+            SirGrupa2 = vspace[0];
+            SirGrupa3 = vspace[0];
+            SirGrupa4 = vspace[0];
+            SirGrupa5 = vspace[0];
+            Grupa_1_Cod_Morse.Text = SirGrupa1.ToString();
+            Grupa_2_Cod_Morse.Text = SirGrupa1.ToString();
+            Grupa_3_Cod_Morse.Text = SirGrupa1.ToString();
+            Grupa_4_Cod_Morse.Text = SirGrupa1.ToString();
+            Grupa_5_Cod_Morse.Text = SirGrupa1.ToString();
+
         }
 
 
         public void STOP_Click(object sender, EventArgs e)
         {
 
-            i = 0; 
-
+            i = 0;
+            
 
         }
         public void MorseLearningForm_Load(object sender, EventArgs e)
@@ -135,30 +147,26 @@ namespace Morse_code_learning
 
         private void RadioButton_Cod_Ascuns_CheckedChanged(object sender, EventArgs e)
         {
-
+           if( RadioButton_Cod_Ascuns.Checked == true) CodAscuns = 1;
+            i = 0;
         }
         private void RadioButton_Cod_La_Vedere_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (RadioButton_Cod_La_Vedere.Checked == true) CodAscuns = 0;
+            i = 0;
         }
        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            /*
-            if (i == 5) i = 0;
-
-            Caracter_Morse_Curent.Text = vs[i].ToString(); ;
-            i++;
-            Thread.Sleep(1000);
-            */
+            
             if(i==51) i = 0;
             if (i > 0)
             {
                 if (i == i / 2 * 2)
                 {
                     Thread.Sleep(300);
-                    Caracter_Morse_Curent.Text = vs[0].ToString();
+                    Caracter_Morse_Curent.Text = vspace[0].ToString();
                    
                     Thread.Sleep(700);
                 }
@@ -179,8 +187,42 @@ namespace Morse_code_learning
 
                 int NrCaracterTX = rnd.Next(NrCaracterTX_Min, NrCaracterTX_Max);
                 string CaracterRandomRezultat = simbol[NrCaracterTX];
-                Caracter_Morse_Curent.Text = CaracterRandomRezultat.ToString();
+                if(CodAscuns == 0 )Caracter_Morse_Curent.Text = CaracterRandomRezultat.ToString();
                 Morse_Code Play = new Morse_Code(CaracterRandomRezultat);
+                    if (i < 11)
+                    {
+                        SirGrupa1 = SirGrupa1 + vspace[0] + CaracterRandomRezultat;
+                       if (CodAscuns==0) Grupa_1_Cod_Morse.Text = SirGrupa1.ToString();
+                    }
+
+                    else if (i < 21)
+                    {
+                        SirGrupa2 = SirGrupa2 + vspace[0] + CaracterRandomRezultat;
+                        if (CodAscuns == 0) Grupa_2_Cod_Morse.Text = SirGrupa2.ToString();
+                    }
+                    else if (i < 31)
+                    {
+                        SirGrupa3 = SirGrupa3 + vspace[0] + CaracterRandomRezultat;
+                        if (CodAscuns == 0) Grupa_3_Cod_Morse.Text = SirGrupa3.ToString();
+                    }
+                    else if (i < 41)
+                    {
+                        SirGrupa4 = SirGrupa4 + vspace[0] + CaracterRandomRezultat;
+                       if (CodAscuns==0) Grupa_4_Cod_Morse.Text = SirGrupa4.ToString();
+                    }
+                    else 
+                    {
+                        SirGrupa5 = SirGrupa5 + vspace[0] + CaracterRandomRezultat;
+                        if (CodAscuns == 0) Grupa_5_Cod_Morse.Text = SirGrupa5.ToString();
+                    }
+                }
+                if (i==50)
+                {
+                    Grupa_1_Cod_Morse.Text = SirGrupa1.ToString();
+                    Grupa_2_Cod_Morse.Text = SirGrupa2.ToString();
+                    Grupa_3_Cod_Morse.Text = SirGrupa3.ToString();
+                    Grupa_4_Cod_Morse.Text = SirGrupa4.ToString();
+                    Grupa_5_Cod_Morse.Text = SirGrupa5.ToString();
                 }
                 i++;
             }
