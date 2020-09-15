@@ -107,15 +107,15 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 
 
              
-  **if**  START_TX == true   >        generez caracter conf conditii lectie
-                                      generez morse_code aferent caracter prin apelare obiect nou
+    if           START_TX == true   >        generez caracter conf conditii lectie
+                                             generez morse_code aferent caracter prin apelare obiect nou
  ``` c#                                    
                                        Morse_Code Play = new Morse_Code(CaracterRandomRezultat);
  ```
-   **if**      RadioButton_CodLaVedere == true 
+   if      RadioButton_CodLaVedere == true 
                                     > afisez caracter in > caracter_curent_Box 
                                     > si apoi in grupa_x  Box
-           **else**                 > afisez toate grupele de litere doar la sfrsitul transmisiei
+         else                 > afisez toate grupele de litere doar la sfrsitul transmisiei
 
 ### Interfata grafica:
 ![](LearningForm.png)
