@@ -116,7 +116,7 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
                                     
     else                            - afisez toate grupele de litere doar la sfrsitul transmisiei
 
-### Interfata grafica:
+### Structura grafica:
 ![](LearningForm.png)
 Interfata grafica, construita in o maniera intuitiva, invita la alegerea numarului lectiei din campul NumericUpDown.
 In momentul alegerii acesteia, este actualizat automat campul "Caractere_Lectie_Noua" si "ProgressBar" in acord cu 
