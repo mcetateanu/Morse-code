@@ -93,18 +93,18 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 ### Clasele folosite:
   Preexistente:
 
-- Beep (int frequency, int duration)     // genereaza ton de frecventa (int frequency) Hz si durata (duration) msec.
-- Random (int32_Min,int32_Max)           // genereaza valoare int32 aleatorie in intervalul (Min,Max)
+    - Beep (int frequency, int duration)     // genereaza ton de frecventa (int frequency) Hz si durata (duration) msec.
+    - Random (int32_Min,int32_Max)           // genereaza valoare int32 aleatorie in intervalul (Min,Max)
 
  construite:
 
-- Morse_Code                            // generaza "melodia" corespunzatoare caracterului atribut.
+    - Morse_Code                            // generaza "melodia" corespunzatoare caracterului atribut.
 
 ### Structura programului:
           
 
              
-    if           START_TX == true   >        generez caracter conf conditii lectie
+    if           START_TX == true   >        generez Random caracter conf conditii lectie
                                              generez morse_code aferent caracter prin apelare obiect nou
  ``` c#                                    
                                        Morse_Code Play = new Morse_Code(CaracterRandomRezultat);
