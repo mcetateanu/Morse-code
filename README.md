@@ -95,6 +95,7 @@ Interfata va deschide direct form-ul principal si va avea urmatoarele functiuni:
 
     - Beep (int frequency, int duration)     // genereaza ton de frecventa (int frequency) Hz si durata (duration) msec.
     - Random (int32_Min,int32_Max)           // genereaza valoare int32 aleatorie in intervalul (Min,Max)
+    - Thread.Sleep(int);                     // genereaza intarziere (sleep) de <int> msec.
 
  construite:
 
